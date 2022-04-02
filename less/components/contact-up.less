@@ -1,0 +1,30 @@
+@import 'var.less';
+
+.contact-section-up {
+    width: 100%;
+    margin: 0;
+
+    @media screen and (min-width: @tablet) {
+        position: fixed;
+        top: 60px;
+        width: 80%;
+        z-index: 100;
+        background-color: @color-white;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: @color-black;
+        border-bottom: 1px solid @color-gold;
+        margin: 10px 0;
+        padding: 10px 0;
+        background-color: @color-white;
+        &:hover {
+            background-color: @color-gold;
+            color: @color-white;
+            border-bottom: 1px solid @color-bordo;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+@import 'var.less';
+
+// .prices {
+//     width: 100%;
+//     border-top: 1px solid @color-gold;
+//     border-bottom: 1px solid @color-gold;
+//     margin-top: 80px;
+
+//     .prices-header {
+//         margin-top: 20px;
+//     }
+        
+//     p {
+//         font-size: 18px;
+//         padding-left: 15px;
+//     }
+
+//     span {
+//         display: block;
+//         margin: 10px 0;
+//         font-size: 16px;
+//         padding-left: 15px;
+//         }
+
+//     i {
+//         font-size: 16px;
+//     }
+
+// }
+
+table {
+    width: 100%;
+    margin: 50px 0 10px 0;
+    background-color: @color-light-silver;
+    border: 1px solid @color-gold;
+    border-radius: 4px;
+    tr {
+        td {
+            width: 14%;
+            border-spacing: 10px;
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+.availability-check {
+    display: flex;
+    justify-content: center;
+
+    button {
+        border: none;
+        background-color: @color-light-silver;
+        padding: 15px;
+        border-bottom: 1px solid @color-gold;
+        border-top: 1px solid @color-gold;
+        text-transform: uppercase;
+        margin: 50px 0 20px 0;
+        &:hover {
+            background-color: @color-gold;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.available-on {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.accomodation {
+    text-align: center;
+    p {
+        margin-bottom: 50px;
+        color: @color-bordo;
+        font-weight: bold;
+    }
+
+    span {
+        display:block;
+        margin: 10px;
+    }
+}
